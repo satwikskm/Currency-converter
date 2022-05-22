@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+
+
+
+
+body{
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/03/Banknote-cash-euro-euros-money-wallpaper.jpg);
+    font-family: 'Rubik', sans-serif;  
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap:30px;
+    transform: translate(200px,150px);
+    height: 50vh;
+    /* border: 2px solid rgb(85, 21, 223); */
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(230, 230, 108);
+    background: rgb(241, 236, 227);
+}
+
+.top , .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.swap{
+    padding: 5px 3px;
+    width: 10%;
+    box-shadow: 1px 1px 1px grey;
+    background: aquamarine;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Rubik', sans-serif;  
+
+}
+
+
+.heading{
+    border-radius: 20px 20px 0px 0px;
+    color: aliceblue;
+    font-weight: 400;
+    margin-top: 0;
+    padding: 20px 50px;
+    background: rgb(46, 232, 170);
+    width: 88.5%;
+    text-align: center;
+}
+
+.desc{
+    color: rgb(11, 230, 157);
+    text-align: center;
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+    
+}
+
+.currency-value{
+    margin-left: 70px;
+    padding: 10px 10px;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+}
+
+.curr{
+    color: brown;
+}
+

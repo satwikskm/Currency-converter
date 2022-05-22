@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class="main">
+        
+            <h1 class="heading">Currency Converter</h1>
+            <p class="desc">TOday's currency rates</p>
+            <div class="top" id="top-primary">
+                <select name="currency" id="primary-currency">
+                    <!-- <option value="primary" class="primary-dropdown">Primary Currency</option> -->
+                  </select>
+                  <div class="primary-value" id="primary-value">
+                      <input type="number" name="primary" id="primary-input" class="currency-value">
+                  
+                  </div>
+
+            </div>
+            <div class="middle">
+                <button class="swap" id="swap">swap</button>
+                <small id="text"></small>
+
+            </div>
+            
+            <div class="bottom" id="secondary">
+                <select name="currency" id="secondary-currency">
+                    <!-- <option value="secondary">Secondary Currency</option> -->
+                  </select>
+                  <div class="secondary-value" id="secondary-value">
+                    <input type="number" name="secondary" id="secondary-input" class="currency-value">
+                  </div>
+
+            </div>
+        
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
